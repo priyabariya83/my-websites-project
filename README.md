@@ -1,4 +1,4 @@
-# web-projects-by-priya
+# HTML&CSS-projects-by-priya
 📁 trendy-deals-by-priya
 Project Title: Trendy Deals – Online Fashion Store UI
 Description:
