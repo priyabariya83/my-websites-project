@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trendy Deals by Priya</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(to right, #ffe3e3, #ffe7d9);
+      padding: 30px;
+      color: #222;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      background: #fff;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3.5em;
+      color: #ff3d57;
+    }
+
+    header p {
+      font-size: 1.1em;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h3 {
+      font-size: 1.3em;
+      color: #ff3d57;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      color: #444;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s ease;
+      box-shadow: 0 4px 12px rgba(255, 64, 129, 0.4);
+    }
+
+    .btn:hover {
+      background: #e91e63;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #555;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Priya's Picks 💖</h1>
+      <p>Only the best, trendy, and colorful products just for you!</p>
+    </header>
+
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/I/61KNJav3S9L._SX679_.jpg" alt="Earbuds">
+        <div class="card-content">
+          <h3>boAt Airdopes 441 Pro</h3>
+          <p>Noise cancellation + deep bass. Best for music lovers on the move!</p>
+          <a class="btn" href="https://www.boat-lifestyle.com/products/airdopes-441-pro" target="_blank">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/I/61IMRs+o0iL._SL1500_.jpg" alt="Smartwatch">
+        <div class="card-content">
+          <h3>Noise ColorFit Pulse 2</h3>
+          <p>Fitness tracking, calls, notifications – all on your wrist with style!</p>
+          <a class="btn" href="https://www.gonoise.com/products/noise-colorfit-pulse-2-max-smartwatch" target="_blank">Buy Now</a>
+        </div>
+      </div>
+
+      <div class="card">
+  <img src="https://agarolifestyle.com/cdn/shop/files/2_8333eee5-5e79-4eb6-8453-ab86b2f5d95a_230x.progressive.jpg?v=1749631749" alt="AGARO Portable Blender">
+  <div class="card-content">
+    <h3>AGARO Portable Blender</h3>
+    <p>Rechargeable & lightweight. Blend healthy smoothies anywhere!</p>
+    <a class="btn" href="https://agarolifestyle.com/collections/blender-mixer" target="_blank">Buy Now</a>
+  </div>
+</div>
+
+    </div>
+
+    <footer>
+      <p>📒 Designed with ❤️ by Priya | Affiliate links included</p>
+    </footer>
+  </div>
+</body>
+</html>
